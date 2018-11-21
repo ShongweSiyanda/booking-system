@@ -2,7 +2,7 @@
 
 /*$servername = "localhost";
 $username = "id5218096_siya";
-$password = "25217382";
+$password = "";
 $db = "id5218096_system_db";*/
 
 class Connection {
@@ -54,7 +54,7 @@ $conn_object = new Connection();
 $conn_object->setServerName("localhost");
 $conn_object->setUsername("root");
 $conn_object->setPassword("");
-$conn_object->setDbName("more_bookings");
+$conn_object->setDbName("systemdb");
 
 
 $conn = mysqli_connect( $conn_object->getServerName(), $conn_object->getUsername(), $conn_object->getPassword(), $conn_object->getDbname() );
