@@ -16,7 +16,7 @@
         
         if($count==1){
             $_SESSION['login'] = $user;
-            header("location:home.php");
+            header("location:main.php");
             //echo("<script> window.alert('Successfully logged in;') </script>");
         }
         else{
