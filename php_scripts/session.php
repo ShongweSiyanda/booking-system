@@ -16,10 +16,7 @@ $row = mysqli_fetch_array($results,MYSQLI_ASSOC);
 $login_user_session = $row["username"];
 
 if(!isset($_SESSION["login"])){
-echo("<script>
-    window.open(...);
-    window.alert('Session expired, please login again');
-</script>");
+echo("");
     header("location:index.html");
 }
 
