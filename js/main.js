@@ -6,7 +6,7 @@ $( document ).ready(function() {
 
     $('#registerLink').click(function(){
         $('#registerForm').show();
-        $('#signUp').slideUp(1000);
+        $('#signUp').slideUp(700);
       
 
     });
