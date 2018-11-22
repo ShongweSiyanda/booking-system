@@ -11,3 +11,7 @@ body a{
     color:white;
     font-style: italic;
 }
+.fa:hover{
+    color:red;
+    text-decoration: none;
+}
