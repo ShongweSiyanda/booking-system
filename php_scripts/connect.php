@@ -1,10 +1,4 @@
 <?php
-
-/*$servername = "localhost";
-$username = "id5218096_siya";
-$password = "";
-$db = "id5218096_system_db";*/
-
 class Connection {
 
 	private $servername;
